@@ -198,10 +198,12 @@
   }
   
   /* Navbar
-     ============================= */
-  .navbar-menu {
+      ============================= */
   
+  .navbar-menu {
+    float: right;
   }
+  
   .nav {
     margin: 0;
     padding: 0;
@@ -247,22 +249,25 @@
   
   /* Header
       ============================= */
+  
   .header {
     padding: var(--header-padding);
          position: relative;
          z-index: 3;
          background: transparent;
   }
- 
+
   .header-container {
     display: flex;
     justify-content: space-between;
   }
+  
   .header-logo {
   }
   
   .header-logo a {
   }
+  
   /* Footer
       ============================= */
   
