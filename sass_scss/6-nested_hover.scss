@@ -1,10 +1,8 @@
 /* Set text color for button tags from #FF0000 to change to #00FF00 on hover using nested declarations */
-$color: #FF0000;
-
 button {
-  color: $color;
+	color: #ff0000;
 
-  &:hover {
-    color: #00FF00;
-  }
+	&:hover {
+		color: #00ff00;
+	}
 }
