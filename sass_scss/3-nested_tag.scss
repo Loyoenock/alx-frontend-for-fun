@@ -1,11 +1,10 @@
 /* Set margins and paddings for body and p tags using nested declarations */
-$margin: 0;
-$padding: 0;
+$margin: 0px;
+$padding: 0px;
 
 body{
   margin: $margin;
   padding: $padding;
   p {
-    margin: 10px;
-  }
+    margin: 10px;}
 }
