@@ -1,0 +1,9 @@
+/* Set text color for elements inside body and #FF0000 for first-child elements with class .red */
+$color: #3D3D3D;
+body{
+  color: $color;
+ >.red {
+    color: #FF0000;
+  }
+}
+
