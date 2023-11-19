@@ -1,0 +1,12 @@
+/* Sass: Set font sizes - body: 14px, h1: 16px, .smaller: 12px (nested declarations) */
+$font-size: 14px;
+
+body {
+  font-size: $font-size;
+  h1{
+    font-size: 16px;
+    &.small{
+      font-size: 12px;
+    }
+  }
+}
