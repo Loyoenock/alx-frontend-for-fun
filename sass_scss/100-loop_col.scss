@@ -1,6 +1,6 @@
 /* Sass: Generate classes .col-* with widths 100%, 50%, 33.33%, and 25% using @for statement */
-@for $i from 1 through 4{
-  .cols-#{$i} {
-    width: percentage(1 / $i)
+@for $i from 1 through 4 {
+  .col-#{$i} {
+    width: percentage(1 / $i);
   }
 }
